@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:perbaikan_uts/screen/splash_screen3.dart';
+import 'package:uts/screen/login_screen.dart';
 
-class SplashScreen2 extends StatelessWidget {
-  const SplashScreen2({super.key});
+class SplashScreen3 extends StatelessWidget {
+  const SplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,19 +22,19 @@ class SplashScreen2 extends StatelessWidget {
                 color: Colors.deepPurple,
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage('android/assets/images/image_2.jpg'),
+                  image: AssetImage('android/assets/images/image_3.jpg'),
                 ),
               ),
             ),
             //tambahkan disini untuk widget widget lainnya nanti
             SizedBox(height: 30),
             Text(
-              'Barca',
+              'Welcome',
               style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
             Text(
-              'Mes Que Un Club',
+              'Visca Barca Visca Catalunya',
               style: TextStyle(fontSize: 20, color: Colors.grey[700]),
             ),
             SizedBox(height: 50),
@@ -55,7 +55,7 @@ class SplashScreen2 extends StatelessWidget {
                   height: 12,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.deepPurple,
+                    color: Colors.grey,
                   ),
                 ),
                 SizedBox(width: 10),
@@ -64,7 +64,7 @@ class SplashScreen2 extends StatelessWidget {
                   height: 12,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.grey,
+                    color: Colors.deepPurple,
                   ),
                 ),
               ],
@@ -79,7 +79,7 @@ class SplashScreen2 extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => SplashScreen3()),
+                      MaterialPageRoute(builder: (context) => LoginScreen()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
