@@ -105,3 +105,17 @@ class LoginScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 10),
+
+              // 🔹 Lupa Password
+              Align(
+                alignment: Alignment.centerRight,
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Lupa Password?',
+                    style: TextStyle(color: Colors.blue[700], fontSize: 14),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 20),
