@@ -26,3 +26,16 @@ class SplashScreen3 extends StatelessWidget {
                 ),
               ),
             ),
+            //tambahkan disini untuk widget widget lainnya nanti
+            SizedBox(height: 30),
+            Text(
+              'Welcome',
+              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'Visca Barca Visca Catalunya',
+              style: TextStyle(fontSize: 20, color: Colors.grey[700]),
+            ),
+            SizedBox(height: 50),
+            Row(
