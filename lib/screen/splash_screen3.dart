@@ -82,3 +82,14 @@ class SplashScreen3 extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => LoginScreen()),
                     );
                   },
+                   style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.deepPurple,
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 50.0,
+                      vertical: 15.0,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30.0),
+                    ),
+                  ),
+                  child: Text(
