@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
               // 🔹 Logo atau Icon
               Center(
                 child: Image.asset(
-                  "android/assets/images/image_2.jpg",
+                  "android/assets/images/image_4.jpg",
                   width: 100,
                   height: 230,
                   fit: BoxFit.cover,
