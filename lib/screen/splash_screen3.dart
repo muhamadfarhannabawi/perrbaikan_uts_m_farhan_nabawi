@@ -93,3 +93,15 @@ class SplashScreen3 extends StatelessWidget {
                     ),
                   ),
                   child: Text(
+                    'Get Started',
+                    style: TextStyle(fontSize: 18.0, color: Colors.white),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(height: 70),
+          ],
+        ),
+      ),
+      ),
+    );
