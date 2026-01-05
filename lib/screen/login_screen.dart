@@ -139,3 +139,24 @@ class LoginScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 30),
+
+              // 🔹 Divider dengan teks "atau"
+              Row(
+                children: const [
+                  Expanded(
+                    child: Divider(thickness: 1, color: Colors.grey),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 10),
+                    child: Text(
+                      "atau",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                  ),
+                  Expanded(
+                    child: Divider(thickness: 1, color: Colors.grey),
+                  ),
+                ],
+              ),
+
+              const SizedBox(height: 30),
