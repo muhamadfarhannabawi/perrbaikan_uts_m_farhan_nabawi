@@ -188,3 +188,28 @@ class LoginScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 30),
+
+               // 🔹 Teks "Belum punya akun?"
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    "Belum punya akun?",
+                    style: TextStyle(color: Colors.black54),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: const Text(
+                      "Daftar sekarang",
+                      style: TextStyle(color: Colors.teal),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
