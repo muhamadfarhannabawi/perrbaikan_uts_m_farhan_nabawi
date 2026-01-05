@@ -83,3 +83,14 @@ class SplashScreen1 extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => SplashScreen2()),
                     );
                   },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.deepPurple,
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 50.0,
+                      vertical: 15.0,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30.0),
+                    ),
+                  ),
+                  child: Text(
