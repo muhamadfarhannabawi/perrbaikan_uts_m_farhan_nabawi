@@ -26,3 +26,16 @@ class SplashScreen2 extends StatelessWidget {
                 ),
               ),
             ),
+            //tambahkan disini untuk widget widget lainnya nanti
+            SizedBox(height: 30),
+            Text(
+              'Barca',
+              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'Mes Que Un Club',
+              style: TextStyle(fontSize: 20, color: Colors.grey[700]),
+            ),
+            SizedBox(height: 50),
+            Row(
