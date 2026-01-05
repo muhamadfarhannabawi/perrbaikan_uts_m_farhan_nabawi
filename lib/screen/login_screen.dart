@@ -26,3 +26,29 @@ class LoginScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 30),
+
+               // 🔹 Title dan Subtitle
+              const Center(
+                child: Column(
+                  children: [
+                    Text(
+                      "Welcome",
+                      style: TextStyle(
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    SizedBox(height: 8),
+                    Text(
+                      "Silakan login untuk melanjutkan",
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.black54,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+
+              const SizedBox(height: 40),
